@@ -1,10 +1,11 @@
-# Wine_Clustering
+<p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=%23FFFFFF&size=25&center=true&vCenter=true&width=1000&height=100&lines=Wine+Clustering"></a>
+</p>
 
-### Description
+#### Description
 
 > *This project aim to implement a clustering algorythm (’K-Means’) in order to get valuable insights, data comes from Kaggle and is related to chemical composition of wines. For more information on the clustering and what it represents, I suggest reviewing the notebook.*
 
-### Tools
+#### Tools
 
 Before getting started keep in mind the tools used to develop this project were the following:
 
@@ -27,11 +28,11 @@ Before getting started keep in mind the tools used to develop this project were 
     
 4. **At this point the API should be running and accesible at port 5000**
 
-### How to use the API
+#### How to use the API
 
 There are different ways to test an API, you can use tools such as [Postman](https://www.postman.com) where you testing can be done without even write a line of code, but, if you prefer to make the requests using Python, here’s some examples:
 
-### Getting all the records properly labeled  (’/’)
+#### Getting all the records properly labeled  (’/’)
 
 > *The following code will return you a JSON with all the data, if an error occurs make sure you do not have any service running on the port 5000* 
 
@@ -49,7 +50,7 @@ except requests.exceptions.RequestException as e:
     print("Error:", e)
 ```
 
-### Getting the ranges of each attribute  (’/ranges’)
+#### Getting the ranges of each attribute  (’/ranges’)
 
 > *The following code will return you a dictionary with the min and max value from each attribute*
 
@@ -67,7 +68,7 @@ except requests.exceptions.RequestException as e:
     print("Error:", e)
 ```
 
-### Getting the cluster 1  (’/cluster1’)
+#### Getting the cluster 1  (’/cluster1’)
 
 > *The following code will provide you with a JSON containing all the data associated with cluster 1*
 
@@ -85,7 +86,7 @@ except requests.exceptions.RequestException as e:
     print("Error:", e)
 ```
 
-### Getting the cluster 2  (’/cluster2’)
+#### Getting the cluster 2  (’/cluster2’)
 
 ```python
 import requests
@@ -101,7 +102,7 @@ except requests.exceptions.RequestException as e:
     print("Error:", e)
 ```
 
-### Getting the cluster 3  (’/cluster3’)
+#### Getting the cluster 3  (’/cluster3’)
 
 ```python
 import requests
@@ -117,6 +118,6 @@ except requests.exceptions.RequestException as e:
     print("Error:", e)
 ```
 
-### Contact
+#### Contact
 
 If you have any questions or suggestions, feel free to contact me at [lapiceroazul@proton.me](mailto:lapiceroazul@proton.me)
